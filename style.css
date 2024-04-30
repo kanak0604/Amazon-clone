@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 62px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box first */
+.nav-logo{
+    height: 50px;
+    width: 113px;   
+}
+.logo{
+    background-image:url("images/amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* Box 2 */
+.add-first{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 13px;
+}
+.add-second{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    width: 624.5px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(205, 98, 5);
+}
+.select-search{
+    height: 40px;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #0F1111;
+    background-color: #cccccc;
+    text-align: center;
+    border:none;
+}
+.Search-input{
+    width: 100%;
+    height:38px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #0F1111;
+}
+
+/* Box 4 */
+
+
+
+
+/* Box 5 */
+.nav-signin{
+    font-size: 12px;
+}
+.nav-return{
+    font-size: 12px;
+}
+.nav-order{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Box 6 */
+.nav-cart{
+    display: flex;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 31px;
+}
+.nav-cartbox{
+    height: 15px;
+    width: 25px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+
+/* panel section starts  */
+.panel{
+    display: flex;
+    height: 39px;
+    background-color: #232f3e;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 700;
+}
+.panel-pops p{
+    display: inline;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 8px 9px;
+    margin: 5px 0 6px; 
+}
+.panel-all{
+    color: white;
+    font-weight: 600;
+}
+.panel-pops{
+    width: 1261.68px;    
+}
+
+/* hero page starts here */
+.hero-page{
+    background-image: url(images/hero\ image\ 1.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-container{
+    background-color: #f5f6f6;
+    color: #0F1111;
+    height: 29px;
+    width: 1309px;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.hero-container a{
+    color: #007185;
+    font-size: 14px;
+}
+.hero-container a:hover{
+    color: rgb(226, 64, 5);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* shopping section starts from here */
+
+.shop-section{
+    display: flex;
+    margin: 2px 2px 2px 2px;
+    justify-content:space-evenly;
+    background-color: #cccccc;
+}
+.box{
+    height: 420px;
+    width: 285.25px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    background-color: white;
+    padding:21px 15px 15px 15px;
+}
+.box1-img{
+    height: 303.7px;
+    width: 284.63px;
+    background-image: contain;
+    margin: 10px 15px 0px 0px;
+}
+.box1 h2{
+   margin: 0px 0px 10px;
+   padding: 0px 2px; 
+}
+.box1 p{
+    color: #007185;
+    margin-top: 24px;
+    margin-left: 1px;
+}
+.box1 p:hover{
+    color: #febd68;
+    cursor: pointer;
+}
+
+
+/* Box two starts here */
+.wholepic{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+.box2 h2{
+    margin: 0px 0px 10px;
+    padding: 0px 14px; 
+ }
+.box2 p{
+    color: #007185;
+    margin-top: 42px;
+    margin-left: 13px;
+}
+.box-img2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px ;
+}
+.box-img1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    height: 117px;
+    width: 122px;
+}
+
+.box2 p:hover{
+    color: #febd68;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* box 3 starts here  */
+.box3 h2{
+    margin-left: -12px;
+    padding: 0px 14px; 
+}
+.phone-img{
+    height: 172.7px;
+    width: 288.39px;
+}
+.phone p{
+        color: #0F1111;
+        margin-bottom: 34px;
+        cursor: pointer;
+        font: 15px;
+        font-weight: 100;
+}
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.gadget{
+    height: 75px;
+    width: 95px;
+}
+.tablet p{
+    color: #0F1111;
+    margin-bottom: 34px;
+    cursor: pointer;
+    font: 15px;
+    font-weight: 100;
+}
+.laptop p{
+    color: #0F1111;
+    margin-bottom: 34px;
+    cursor: pointer;
+    font: 15px;
+    font-weight: 100;
+}
+.tvs p{
+    color: #0F1111;
+    font: 15px;
+    font-weight: 100;
+    cursor: pointer;
+    margin-bottom: 34px;
+}
+.box4 p{
+    margin-left: 18px;
+    font-weight: 200;
+    color: #007185;
+    margin-top: 42px;
+}
+.box4 h2{
+    margin-left: 18px;
+}
+.smallbox{
+    height: 117px;
+    width: 100%;
+    background-color: white;
+}
+.borderbox{
+    height: 100px;
+    width: 100%;
+    margin-top: 42px;
+}
+.borderbox p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.smallbutton{
+    height: 33px;
+    width: 236px;
+    background-color: #f9e14a;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 558px;
+    margin-top: 8px;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    font-size: 12px;
+}
+.blue{
+    color: #007185;
+}
+.white{
+    height: 60px;
+    width: 100%;
+}
+
